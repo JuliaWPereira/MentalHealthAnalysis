@@ -42,3 +42,8 @@ if __name__ == "__main__":
     plt.legend()
     plt.tight_layout()
     plt.show()
+
+    print("Média KMeans:", np.mean(times_kmeans))
+    print("Média GMM:", np.mean(times_gmm))
+    print("Desvio Padrão KMeans:", np.std(times_kmeans))
+    print("Desvio Padrão GMM:", np.std(times_gmm))
